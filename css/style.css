@@ -9,3 +9,24 @@
     left: 0;
     position: absolute;
 }
+
+#logo {
+    display: block;
+    margin: auto;
+}
+
+.button {
+    display: block;
+    margin: auto;
+}
+
+.columnPadding{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.notification-image {
+    background: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
