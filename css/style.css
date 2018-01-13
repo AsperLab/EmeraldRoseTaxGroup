@@ -1,45 +1,5 @@
-.parallax-top {
-    position: relative;
-    opacity: 0.6;
-    background-size: cover;
-    background: no-repeat fixed center;
-    min-height: 100%;
-}
-
-.parallax-image {
-    background-image: url("../images/capital_building.jpg");
-    min-height: 100%;
-}
-
-.parallax-header {
-
-    /* The image used */
-    /* Set a specific height */
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background: url("../images/main_page_background.jpg") no-repeat fixed center;
-    background-size: cover;
-}
-
-.section-heading {
-    margin-top: 0;
-}
-
-.service-box {
-    max-width: 400px;
-    margin: 50px auto 0;
-}
-
-.header-image {
-    background: url(../images/capital_building.jpg) no-repeat fixed center;
-    background-size: cover;
-    display: block;
-    padding-bottom: 35%;
-    /*for scrolling testing purposes*/
-    margin-bottom: 1000px;
-}
-
 .navbar {
+    /*Shadow effects for navbar*/
     -webkit-box-shadow: -2px -7px 18px 9px rgba(0, 0, 0, 0.18);
     -moz-box-shadow: -2px -7px 18px 9px rgba(0, 0, 0, 0.18);
     box-shadow: -2px -7px 18px 9px rgba(0, 0, 0, 0.18);
@@ -47,11 +7,88 @@
     /* the rest of your styling */
 }
 
-body {
-    background: transparent;
-}
-
 #logo {
     padding-right: 4px;
     padding-bottom: 4px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.6;
+    background: no-repeat fixed center;
+    background-size: cover;
+
+}
+
+.bgimg-1 {
+    background-image: url("../images/capital_building.jpg");
+    min-height: 65%;
+}
+
+.bgimg-2 {
+    background-image: url("https://i.ytimg.com/vi/S7_niexGYEo/hqdefault.jpg");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("http://www.srinivasagovinda.com/images/2010/release1/srinivasa-govinda-rel1-8.jpg");
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #50c878;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .caption span.border {
+        background-color: #50c878;
+        color: #fff;
+        margin-top: 10px;
+        padding: 18px;
+        font-size: 15px;
+        letter-spacing: 10px;
+    }
+
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #ddd;
+}
+
+.parallax-text-1 {
+    color: #ddd;
+    background-color: #282E34;
+    padding: 50px 80px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.border-text {
+    background-color: transparent;
+    font-size: 25px;
+    color: #f7f7f7;
+    text-shadow: 2px 2px 8px #000000;
 }
