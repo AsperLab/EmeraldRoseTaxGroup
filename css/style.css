@@ -21,7 +21,8 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    opacity: 0.6;
+    opacity: 0.7;
+
     background: no-repeat fixed center;
     background-size: cover;
 
@@ -29,39 +30,38 @@ body, html {
 
 .bgimg-1 {
     background-image: url("../images/capital_building.jpg");
-    min-height: 65%;
+    min-height: 75%;
 }
 
 .bgimg-2 {
-    background-image: url("https://i.ytimg.com/vi/S7_niexGYEo/hqdefault.jpg");
-    min-height: 400px;
-}
-
-.bgimg-3 {
-    background-image: url("http://www.srinivasagovinda.com/images/2010/release1/srinivasa-govinda-rel1-8.jpg");
-    min-height: 400px;
+    /*background-image: url("../images/main_page_background.jpg");*/
+    background-image: url("../images/capital_building.jpg");
+    min-height: 25%;
 }
 
 .caption {
     position: absolute;
     left: 0;
-    top: 60%;
+    top: 40%;
     width: 100%;
     text-align: center;
     color: #000;
+
 }
 
 .caption span.border {
-    background-color: #50c878;
-    color: #fff;
+    /*background-color: white;*/
+    color: #048f35;
+    font-weight: inherit;
     padding: 18px;
-    font-size: 25px;
     letter-spacing: 10px;
+    /*text-transform: uppercase;*/
+    font: 60px "Lato", sans-serif;
 }
 
 @media screen and (max-width: 767px) {
     .caption span.border {
-        background-color: #50c878;
+        background-color: #31a23b;
         color: #fff;
         margin-top: 10px;
         padding: 18px;
@@ -79,15 +79,26 @@ h3 {
 }
 
 .parallax-text-1 {
-    color: #ddd;
+    color: white;
     background-color: #282E34;
-    padding: 50px 80px;
+    text-align: justify;
+    font-size: 15px;
+    padding: 50px 10%;
+}
+
+.parallax-text-2 {
+    /*color: #ddd;*/
+
+    padding: 50px 10%;
+    background-color: #ffffff;
+    /*padding: 50px 80px;*/
     text-align: justify;
     font-size: 15px;
 }
 
 .border-text {
     background-color: transparent;
+    background-size: 100px;
     font-size: 25px;
     color: #f7f7f7;
     text-shadow: 2px 2px 8px #000000;
