@@ -22,15 +22,13 @@ body, html {
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
     opacity: 0.7;
-
     background: no-repeat fixed center;
     background-size: cover;
-
 }
 
 .bgimg-1 {
-    background-image: url("../images/capital_building.jpg");
-    min-height: 75%;
+    background-image: url("../images/background.png");
+    min-height: 100%;
 }
 
 .bgimg-2 {
@@ -49,26 +47,56 @@ body, html {
 
 }
 
-.caption span.border {
-    /*background-color: white;*/
-    color: #048f35;
-    font-weight: inherit;
+.caption span.custom {
+    background-color: transparent !important;
+    color: black !important;
     padding: 18px;
+    position: absolute;
+    left: 15%;
+    border: 0px transparent;
     letter-spacing: 10px;
-    /*text-transform: uppercase;*/
-    font: 60px "Lato", sans-serif;
+    text-transform: uppercase;
+    font: 40px "Lato", sans-serif;
+
+}
+
+@media screen and (max-width: 420px) {
+
+    .caption span.border {
+        background-color: transparent !important;
+        color: black !important;
+        padding: 18px;
+        position: absolute;
+        border: 0px transparent;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        font: 15px "Lato", sans-serif;
+    }
+
+    /*.bgimg-1 {*/
+        /*background: url("../images/background.png") no-repeat fixed center left -1000px;*/
+        /*border-right: 20px solid transparent;/*/
+        /**/
+        /*min-height: 75%;*/
+    /*}*/
+
 }
 
 @media screen and (max-width: 767px) {
-    .caption span.border {
-        background-color: #31a23b;
-        color: #fff;
-        margin-top: 10px;
+    .caption span.custom {
+        background-color: transparent !important;
+        color: black !important;
         padding: 18px;
-        font-size: 15px;
+        position: absolute;
+        border: 0px transparent;
         letter-spacing: 10px;
+        text-transform: uppercase;
+        font: 30px "Lato", sans-serif;
     }
 
+    .bgimg-1 {
+        background: url("../images/background.png") no-repeat fixed center left -1000px;
+    }
 }
 
 h3 {
