@@ -19,7 +19,7 @@ body, html {
     color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2 {
     position: relative;
     opacity: 0.7;
     background: no-repeat fixed center;
@@ -32,9 +32,10 @@ body, html {
 }
 
 .bgimg-2 {
-    /*background-image: url("../images/main_page_background.jpg");*/
-    background-image: url("../images/capital_building.jpg");
-    min-height: 25%;
+    min-height: 50%;
+    background: no-repeat top;
+    background-size: cover;
+    background-image: url("../images/contact-us.jpeg");
 }
 
 .caption {
@@ -52,7 +53,7 @@ body, html {
     color: black !important;
     padding: 18px;
     position: absolute;
-    left: 15%;
+    left: 10%;
     border: 0px transparent;
     letter-spacing: 10px;
     text-transform: uppercase;
@@ -72,14 +73,6 @@ body, html {
         text-transform: uppercase;
         font: 15px "Lato", sans-serif;
     }
-
-    /*.bgimg-1 {*/
-        /*background: url("../images/background.png") no-repeat fixed center left -1000px;*/
-        /*border-right: 20px solid transparent;/*/
-        /**/
-        /*min-height: 75%;*/
-    /*}*/
-
 }
 
 @media screen and (max-width: 767px) {
@@ -123,10 +116,14 @@ h3 {
     font-size: 15px;
 }
 
-.border-text {
-    background-color: transparent;
-    background-size: 100px;
-    font-size: 25px;
-    color: #f7f7f7;
-    text-shadow: 2px 2px 8px #000000;
+.bg-footer {
+    background-color: #343a40 !important;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.contact-section {
+    height: 50%;
 }
