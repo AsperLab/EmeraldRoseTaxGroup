@@ -1,2 +1,2 @@
-$('#homescreenCaption').addClass('animated slideInLeft');
-$('#scrollDownImage').addClass('animated pulse');
+$('#homescreenCaption').addClass('animated fadeIn');
+$('#scrollDownImage').addClass('animated pulse ');
