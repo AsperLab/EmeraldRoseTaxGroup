@@ -127,3 +127,15 @@ h3 {
 .contact-section {
     height: 50%;
 }
+
+#scrollDownImage {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#homescreenCaption {
+    -webkit-animation-duration: 2s;
+}
