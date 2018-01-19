@@ -65,7 +65,7 @@ body, html {
 .scroll-down-image {
     position: absolute;
     bottom: 5%;
-    margin-left:47%;
+    margin-left: 47%;
 }
 
 @media screen and (max-width: 420px) {
@@ -82,10 +82,10 @@ body, html {
     }
 
     .scroll-down-image {
-    position: absolute;
-    bottom: 5%;
-    margin-left:42%;
-}
+        position: absolute;
+        bottom: 5%;
+        margin-left: 42%;
+    }
 
 }
 
@@ -105,12 +105,11 @@ body, html {
         background: url("../images/background.png") no-repeat fixed center left -1000px;
     }
 
-   .scroll-down-image {
-    position: absolute;
-    bottom: 5%;
-    margin-left:45%;
-}
-
+    .scroll-down-image {
+        position: absolute;
+        bottom: 5%;
+        margin-left: 45%;
+    }
 
 }
 
