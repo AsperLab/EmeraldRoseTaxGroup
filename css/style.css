@@ -131,7 +131,7 @@ h3 {
 
 .parallax-text-2 {
     /*color: #ddd;*/
-    padding: 50px 10%;
+    padding: 50px 6%;
     background-color: #ffffff;
     /*padding: 50px 80px;*/
     text-align: justify;
@@ -159,4 +159,9 @@ h3 {
 
 #homescreenCaption {
     -webkit-animation-duration: 3s;
+}
+
+.contact-icon {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
