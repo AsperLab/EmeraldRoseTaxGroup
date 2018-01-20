@@ -68,6 +68,10 @@ body, html {
     margin-left: 47%;
 }
 
+.auto-tab {
+    padding-left: 2em;
+}
+
 @media screen and (max-width: 420px) {
 
     .caption span.border {
@@ -87,6 +91,9 @@ body, html {
         margin-left: 42%;
     }
 
+    .auto-tab {
+        padding-left: 0em;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -111,6 +118,9 @@ body, html {
         margin-left: 45%;
     }
 
+    .auto-tab {
+        padding-left: 0em;
+    }
 }
 
 h3 {
@@ -164,3 +174,4 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
