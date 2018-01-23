@@ -6,6 +6,16 @@
 
     /* the rest of your styling */
 }
+.bg-custom{
+    background-color: #048F34 !important;
+}
+a:link {
+    color: #048F34;
+}
+a:hover {
+    color: darkgreen;
+}
+
 
 #logo {
     padding-right: 4px;
@@ -21,37 +31,42 @@ body, html {
 
 .bgimg-1, .bgimg-2 {
     position: relative;
-    opacity: 0.7;
+    /*opacity: 0.7;*/
     background: no-repeat fixed center;
     background-size: cover;
 }
 
 .bgimg-1 {
-    background-image: url("../images/background.png");
+    background-image: url("../images/background.jpeg");
     min-height: 100%;
+    background-position-x: 80%;
+    z-index: -1;
+
 }
 
 .bgimg-2 {
     min-height: 25%;
-    background: no-repeat bottom;
-    background-position-y: 50%;
+    background: no-repeat left;
+    /*background-position-y: 50%;*/
     background-size: cover;
-    background-image: url("../images/contact-us.jpg");
+    /*background-image: url("../images/contact-us.jpg");*/
+    background-image: url("../images/background.jpeg");
 }
 
 .caption {
     position: absolute;
     left: 0;
     top: 40%;
-    width: 100%;
+    /*width: 100%;*/
     text-align: center;
     color: #000;
 
 }
 
+
 .caption span.custom {
     background-color: transparent !important;
-    color: black !important;
+    color: #048F34 !important;
     padding: 18px;
     position: absolute;
     left: 10%;
@@ -88,7 +103,7 @@ body, html {
     .scroll-down-image {
         position: absolute;
         bottom: 5%;
-        margin-left: 42%;
+        margin-left: 39% !important;
     }
 
     .auto-tab {
@@ -109,7 +124,7 @@ body, html {
     }
 
     .bgimg-1 {
-        background: url("../images/background.png") no-repeat fixed center left -1000px;
+        background: url("../images/background.jpeg") no-repeat fixed center left -1000px;
     }
 
     .scroll-down-image {
@@ -119,7 +134,7 @@ body, html {
     }
 
     .auto-tab {
-        padding-left: 0em;
+        padding-left: 0;
     }
 }
 
