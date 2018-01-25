@@ -6,16 +6,18 @@
 
     /* the rest of your styling */
 }
-.bg-custom{
-    background-color: #048F34 !important;
+
+.bg-custom {
+    background-color: #274933 !important;
 }
+
 a:link {
-    color: #048F34;
+    color: grey;
 }
+
 a:hover {
     color: darkgreen;
 }
-
 
 #logo {
     padding-right: 4px;
@@ -62,7 +64,6 @@ body, html {
     color: #000;
 
 }
-
 
 .caption span.custom {
     background-color: transparent !important;
@@ -144,7 +145,6 @@ h3 {
     font: 20px "Lato", sans-serif;
     color: #ddd;
 }
-
 .parallax-text-1 {
     color: white;
     background-color: #282E34;
@@ -162,8 +162,17 @@ h3 {
     font-size: 15px;
 }
 
+.auto-cols {
+    -webkit-columns: 2 200px;
+    -moz-columns: 2 200px;
+    columns: 2 200px;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+}
+
 .bg-footer {
-    background-color: #343a40 !important;
+    background-color: #2a2e34 !important;
 }
 
 .center-text {
@@ -190,3 +199,6 @@ h3 {
     padding-bottom: 10px;
 }
 
+.bg-grey {
+    background-color: grey;
+}
