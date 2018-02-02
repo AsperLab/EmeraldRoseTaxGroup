@@ -7,6 +7,15 @@
     /* the rest of your styling */
 }
 
+body, html {
+    font-family: 'Roboto', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    color: #777;
+}
+
 .bg-custom {
     background-color: #274933 !important;
 }
@@ -24,11 +33,45 @@ a:hover {
     padding-bottom: 4px;
 }
 
-body, html {
-    height: 100%;
-    margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    color: #777;
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #cdcdcd;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', 'Avenir Next', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+    position: relative;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
 }
 
 .bgimg-1, .bgimg-2 {
@@ -48,17 +91,14 @@ body, html {
 
 .bgimg-2 {
     min-height: 25%;
-    background: no-repeat left;
-    /*background-position-y: 50%;*/
     background-size: cover;
-    /*background-image: url("../images/contact-us.jpg");*/
-    background-image: url("../images/background.jpeg");
+    background: url("../images/background.jpeg") no-repeat left;
 }
 
 .caption {
     position: absolute;
     left: 0;
-    top: 40%;
+    top: 70%;
     /*width: 100%;*/
     text-align: center;
     color: #000;
@@ -88,6 +128,10 @@ body, html {
     padding-left: 2em;
 }
 
+.navbar-image {
+    content: url("../images/logo_name.png");
+}
+
 @media screen and (max-width: 420px) {
 
     .caption span.border {
@@ -98,7 +142,7 @@ body, html {
         border: 0px transparent;
         letter-spacing: 10px;
         text-transform: uppercase;
-        font: 15px "Lato", sans-serif;
+        font-size: 15px;
     }
 
     .scroll-down-image {
@@ -110,6 +154,11 @@ body, html {
     .auto-tab {
         padding-left: 0em;
     }
+
+    .navbar-image {
+        content: url("../images/icon.png");
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -121,7 +170,7 @@ body, html {
         border: 0px transparent;
         letter-spacing: 10px;
         text-transform: uppercase;
-        font: 30px "Lato", sans-serif;
+        font-size: 30px;
     }
 
     .bgimg-1 {
@@ -137,14 +186,13 @@ body, html {
     .auto-tab {
         padding-left: 0;
     }
+
+    .navbar-image {
+        content: url("../images/icon.png");
+    }
+
 }
 
-h3 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #ddd;
-}
 .parallax-text-1 {
     color: white;
     background-color: #282E34;
@@ -185,13 +233,12 @@ h3 {
 
 #scrollDownImage {
     outline: none;
-
     -webkit-animation-duration: 1s;
     -webkit-animation-iteration-count: infinite;
 }
 
 #homescreenCaption {
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 2s;
 }
 
 .contact-icon {
@@ -201,4 +248,12 @@ h3 {
 
 .bg-grey {
     background-color: grey;
+}
+
+h3 {
+    text-align: center;
+}
+
+.description {
+    text-align: left;
 }
