@@ -90,9 +90,9 @@ h6 {
 }
 
 .bgimg-2 {
-    min-height: 25%;
-    background-size: cover;
-    background: url("../images/background.jpeg") no-repeat left;
+    min-height: 20%;
+    background: url("../images/background.jpeg") left;
+    z-index: -1;
 }
 
 .caption {
