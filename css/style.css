@@ -45,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', 'Avenir Next', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     position: relative;
     margin: 10px 0;
 }
@@ -98,7 +98,7 @@ h6 {
 .caption {
     position: absolute;
     left: 0;
-    top: 70%;
+    top: 50%;
     /*width: 100%;*/
     text-align: center;
     color: #000;
@@ -114,8 +114,6 @@ h6 {
     border: 0px transparent;
     letter-spacing: 10px;
     text-transform: uppercase;
-    font: 40px "Lato", sans-serif;
-
 }
 
 .scroll-down-image {
